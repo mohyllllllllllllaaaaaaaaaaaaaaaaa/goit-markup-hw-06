@@ -3,18 +3,10 @@ font-family: "Roboto", sans-serif; */
 
 /*reset*/
 
-/*common*/
-.container {
-    max-width: 1158px;
-    padding: 0 15px;
-    margin: 0 auto;
+/*comm
 }
 /*header*/
- .logo-header  .logo-part {color: #2e2f42;}
-.logo-header {
-    padding: 24px 0;
-    margin-right: 76px;
-}
+
  
    /*
  @media screen and (min-width: 768px){
@@ -37,11 +29,23 @@ font-family: "Roboto", sans-serif; */
 
 
 
-
+border: 1px solid #000;
+width: 320px;
+height: 432px;
 
 
 }
-/*efective section1*/
+display: flex;
+align-items: flex-start;
+justify-content: flex-start;
+flex-direction: row;
+gap: 10px;
+
+
+
+
+
+/*efective section1
 .main-container {
     display: flex;
     align-items: center;
@@ -88,17 +92,7 @@ min-width: 169px;
 transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .button:hover,
-.button:focus {background-color: #404bbf;
- cursor: pointer;
-}
-/*section2*/
-.feature{
-padding: 120px 0;
-}
-
-.feature-list {
-    display: flex;
-    align-items: center;
+.bign-items: center;
     gap: 24px;
     }
     .feature-item {
@@ -127,8 +121,17 @@ margin-bottom: 8px;
 font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
-color: #434455 ;
-}
+color: #434455;
+}utton:focus {background-color: #404bbf;
+ cursor: pointer;
+} flex-basis: calc((100% - 72px)/4);
+/*section2*/
+
+
+
+
+
+
 /* section3  team*/
 .team{
     display: flex;
