@@ -478,3 +478,34 @@ width: auto;
 }
 }
 /*team section3*/
+.team{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background: #f4f4fd;
+    gap: 72px;
+}
+.team-list {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 72px;
+}
+.team-title {font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+ text-transform: capitalize;
+color: #2e2f42;
+ margin: 96px 0 72px 0px;
+}
+.team-item {
+
+     border-radius: 0px 0px 4px 4px; 
+    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    border-radius: 0 0 4px 4px;
+     background-color: #FFFFFF ;
+     gap: 32px;
+}
