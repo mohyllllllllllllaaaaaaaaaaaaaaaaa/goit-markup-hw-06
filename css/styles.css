@@ -362,17 +362,20 @@ margin:  72px 23px 0 23px;
 }
  @media screen and (min-width: 768px){
 .effective {
+padding-top: 112px;
+padding-bottom: 112px;
 max-width: 768px;
 background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),url(../images/peopele-office-tab.jpg@1x.jpg.jpg);
 }
 .effective-text{
     margin: 0 auto 48px auto;
+    font-size: 56px;
 }
 .main-container{
 flex-direction: row;
 align-items: center;
-margin: 136px 112px; 
 gap: 100px;
+max-width: 496px;
 }
  .button{
 margin: 0 auto;
@@ -466,7 +469,6 @@ height: 112px;
 font-size: 20px;
 line-height: 1.2;
 margin-bottom: 8px;
-text-align: center;
 }
 .feature-text {font-weight: 400;
 width: auto;
@@ -666,7 +668,6 @@ flex-direction: column;
  align-items: center;
  justify-content: center;
  min-width: 320px;
- min-height: 664px;
  gap: 72px 24px;
  padding-top: 96px;
  padding-bottom: 96px;
@@ -828,25 +829,20 @@ margin-left: 0;}
     align-items: flex-start;
     margin: 0 0;
     } 
-    .footer-forms{
-        margin-bottom: 96px;
-    } 
+
     .form-paragraf {margin-left: 0;} 
  }
  @media screen and (min-width: 1158px) {
    .footer-container{
     align-items: baseline;
    } 
-  .footer-content{
- margin-right: 60px;
- margin-top: 100px;
-}
+   .icons-list-footer{ margin-right: 80px;}
+   .soc-media { text-align: left;
+               margin-left: 0;}
 .logo { justify-content: flex-start;}
 .logo-footer {margin-bottom: 16px;}
-.footer-forms { margin-bottom: 100px;}
 .form-paragraf { margin-left: auto;}
 .footer-input{width: 264px;}
-    .icons-list-footer{margin-top: 100px;}
  }
  /*modal*/
 
@@ -880,7 +876,7 @@ margin-left: 0;}
     top:50%;
     left: 50%;
     width: 288px;
-    height: 584px;
+    min-height: 584px;
      transform: translate(-50%, -50%);
     border-radius: 4px;
      box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14), 0 1px 3px 0 rgba(0, 0, 0, 0.12), 0 2px 1px 0 rgba(0, 0, 0, 0.2);
